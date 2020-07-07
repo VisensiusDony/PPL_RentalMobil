@@ -80,13 +80,13 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.MyViewHo
             tglkembali.setText(transaksi.getTGLPEMBAYARAN());
             if(transaksi.getSTATUSPEMBAYARAN()=="1")
                 status.setText("Lunas");
-            else status.setText("Belum Lunas");
+            else status.setText("Lunas");
 
             total_transaksi.setText("Rp. "+String.format("%,.2f", Double.parseDouble(transaksi.getTOTALPEMBAYARAN().toString())));
 
             if (transaksi.getSTATUSPEMBAYARAN().equals("0")){
-                bg_transaksi.setBackgroundColor(Color.parseColor("#FF9800"));
-                status.setText("Belum Lunas");
+                bg_transaksi.setBackgroundColor(Color.parseColor("#4CAF50"));
+                status.setText("Lunas");
             }else{
                 bg_transaksi.setBackgroundColor(Color.parseColor("#4CAF50"));
                 status.setText("Lunas");
