@@ -12,9 +12,9 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 
 public class client {
-    private  static  final  String BASE_URL="http://192.168.43.187/rental-api/";
-    private  static  final  String BASE_URL_IMAGE="http://192.168.43.187/rental-api/upload/avatars/";
-    private  static  final  String BASE_URL_IMG="http://192.168.43.187/rental-api/upload/";
+    private  static  final  String BASE_URL="http://172.28.1.80/rental-api/";
+    private  static  final  String BASE_URL_IMAGE="http://172.28.1.80/rental-api/upload/avatars/";
+    private  static  final  String BASE_URL_IMG="http://172.28.1.80/rental-api/upload/";
 //    http://192.168.43.221/rental-api/";
 
 //    private  static  final  String BASE_URL="http://192.168.43.98/rental-api/";
