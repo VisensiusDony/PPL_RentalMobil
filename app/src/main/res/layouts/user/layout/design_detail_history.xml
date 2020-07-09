@@ -264,7 +264,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Syarat dan Ketentuan"
+                    android:text="Ketentuan Pembayaran"
                     android:textColor="@color/white"
                     android:textStyle="bold" />
 
@@ -286,7 +286,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Pastikan Alamat yang Digunakan Sudah Benar"
+                    android:text="Pembayaran dilakukan melalui transfer pada rekening UnyuRental No.Rek xxxxxxxxx"
                     android:textColor="@color/white" />
 
 
